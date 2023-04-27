@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/*...*/
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.ulls{
+    list-style: inside;
+}
+.linkcolor{
+    color: rgb(237, 238, 240);
+}
+.boton{
+    border-radius: 4px;
+    font-size: 20px;
+    color: rgb(35, 136, 161);
+    border: 1px solid rgb(135, 211, 221);
+    margin: 0;
+        
+}
+.box{
+    border-radius: 4px;
+    font-size: 30px;
+    color: black;
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+/*...*/
+
+/*class sections*/
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.agenda{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*class sections*/
+
+/*header*/
+#topheader{
+    background-color: rgb(66, 66, 247);
+    padding: 10px 0;
+}
+header ul{
+    color: rgb(237, 238, 240);
+}
+#bottomheader{
+    margin-bottom: 15px;
+}
+/*header*/
+
+
+
+/*footer*/
+footer{
+    background-color: rgb(66, 66, 247);
+    margin-top: 5px;
+}
+/*footer*/
+
+
+
+/*sections main*/
+#sec1home{
+    color: rgb(237, 238, 240);
+    background-size:cover;
+    padding: 300px 0;
+    background-image: url(https://www.computerworld.es/archivos/202104/scott-graham-5fnmwej4taa-unsplash-1-.jpg);
+    margin: 30px 0;
+}
+#sec1home h1{
+    font-size: 70px;
+}
+#sec1home h2{
+    font-size: 40px;
+    color: rgb(36, 151, 151);
+}
+#sec1home h3{
+    font-size: 30px;
+}
+#sec2home div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: aqua;
+}
+#sec2home div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large
+}
+#sec2home h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: aqua;
+}
+#sec2home ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*sections main*/
+
+/*sections sdvyr*/
+#sectionvida{
+    background-image: url(https://s1.1zoom.me/b5844/867/Waves_Ocean_Closeup_529151_1920x1080.jpg);
+    background-size: cover;
+    padding: 300px;
+    
+}
+/*sections sdvyr*/
+
+/*sections sgrls*/
+
+
+/*sections sgrls*/
+#sectiongrales{
+    background-image: url(https://seguros.roams.es/images/post/es_ES_insurance/aseguradoras-mapfre-seguro-salud-colectivos.jpg);
+    padding: 300px;
+    background-size: cover;
+    color: rgb(3, 3, 3);
+}
+/*sections sym*/
+#secsym{
+    background-image: url(https://img.freepik.com/vector-gratis/banner-ciencias-salud-medicina-color-azul_1017-24281.jpg);
+    padding: 300px;
+}
+/*sections sym*/
+
+/*sections inv*/
+#secinv{
+    background-image:url(https://www.emagister.com/i/wp-content/uploads/2022/08/GettyImages-1345912457.jpg);
+    padding: 300px;
+}
+
+
+/*sections inv*/
