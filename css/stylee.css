@@ -1,0 +1,25 @@
+.nav-mio{
+    display: flex;
+    flex-wrap: wrap;
+    color: green;
+    list-style: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.linkcolor{
+    color: rgb(0, 0, 0);
+}
+header{
+    padding-top: 20px;
+    background-color: rgb(173, 173, 173);
+}
+.footerbc{
+    background-color: rgb(173, 173, 173);
+}
+.listgroupmio{
+    background-color: rgb(173, 173, 173);
+}
+.tipolmio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
