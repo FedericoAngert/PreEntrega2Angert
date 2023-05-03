@@ -38,18 +38,10 @@ header{
 }
 
 /* cardbc */
-#card1{
-    background-color: #76a0ee;
+.card1{
+    background-color: #abc4f3;
 }
-#card2{
-    background-color: rgb(104, 154, 184);
-}
-#card3{
-    background-color: rgb(158, 184, 240);
-}
-#card4{
-    background-color: #74c3f0;
-}
+
 
 /* # */
 #contactenos{
@@ -99,3 +91,18 @@ main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
+/* BOTONES */
+.btnmio {
+    background-color: #1e2b37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btnmio:hover {
+    background-color: #2c3e50;
+  }
