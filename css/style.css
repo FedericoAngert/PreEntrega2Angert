@@ -34,11 +34,9 @@ header{
 .spacebotop{
     margin-bottom: 20px;
     margin-top: 20px;
+
 }
-.spacerl{
-    margin-left: 7px;
-    margin-right: 7px;
-}
+
 /* cardbc */
 #card1{
     background-color: #76a0ee;
@@ -62,6 +60,10 @@ header{
 .nodeco{
     text-decoration:underline;
     color: rgb(0, 0, 0);
+}
+main{
+    background-color: rgb(242, 243, 242);
+    padding-bottom: 2rem;
 }
 /* LETRASC */
 .tipolmio{
@@ -87,7 +89,13 @@ header{
 .forms{
     background-color: rgb(190, 236, 240);
     margin-top: 0;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 7rem;
+    padding-bottom: 6.7rem;
 
+}
+/* CONTACTOS */
+.listmio{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 }
