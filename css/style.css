@@ -37,6 +37,17 @@ header{
 
 }
 
+.ldeco{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(0, 5, 71); 
+}
+
+.ldeco:hover{
+    text-decoration: underline;
+    color: rgb(0, 5, 71);
+}
+
 /* cardbc */
 .card1{
     background-color: #abc4f3;
@@ -65,6 +76,10 @@ main{
 .tipolmio2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(24, 46, 139);
+}
+.tipolmio3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 5, 71)
 }
 .header {
     color: #36A0FF;
@@ -106,3 +121,30 @@ main{
   .btnmio:hover {
     background-color: #2c3e50;
   }
+
+  /* INDEX */
+  #secind{
+    margin-top: 50px;
+  }
+
+/* EMPRESAS */
+.company-container {
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+.company-image {
+    max-width: 700px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .company-image {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
