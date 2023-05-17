@@ -5,6 +5,22 @@
   text-decoration: none;
 }
 
+#contactenos, .tipolmio2 {
+  font-family: calibri;
+  color: rgb(0, 5, 71);
+}
+
+#contactenos {
+  text-align: center;
+}
+
+.company-image {
+  max-width: 700px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
 header {
   padding-top: 20px;
   background-color: rgb(242, 243, 242);
@@ -162,13 +178,6 @@ main {
   padding: 15px;
 }
 
-.company-image {
-  max-width: 700px;
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
-
 @media (max-width: 768px) {
   .company-image {
     max-width: 100%;
@@ -222,11 +231,6 @@ ul li {
 .tipolmio {
   font-family: calibri;
   font-size: 15px;
-}
-
-.tipolmio2 {
-  font-family: calibri;
-  color: rgb(24, 46, 139);
 }
 
 .tipolmio3 {

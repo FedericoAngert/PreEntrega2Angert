@@ -1,0 +1,12 @@
+.btnmio{
+    background-color: nth($colores, 12);
+    color: nth($colores, 9);
+    padding: 10px $px2;
+    font-size: $px1;
+}
+.btnmio:hover{
+    background-color: nth($colores, 13);
+}
+.card1{
+    background-color: nth($colores, 1);
+}

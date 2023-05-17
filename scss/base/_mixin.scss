@@ -1,0 +1,12 @@
+@mixin imgtm($maxw,$altura,$ancho){
+    max-width: $maxw;
+    height: $altura;
+    width: $ancho;
+
+}
+
+
+.company-image{
+    @include imgtm(700px, 400px,100% );
+    object-fit: cover;
+}

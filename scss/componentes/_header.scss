@@ -1,0 +1,22 @@
+header{
+    padding-top: $px2;
+    background-color: nth($colores,10)
+}
+.nav-mio{
+    display: flex;
+    flex-wrap: wrap;
+    color: nth($colores,4);
+    list-style: none;
+    font-family: $ff;
+}
+.linkcolor{
+    color: nth($colores ,8);
+}
+
+ul li{
+    list-style: none;
+}
+.nodeco{
+    text-decoration: underline;
+    color: nth($colores ,8);
+}

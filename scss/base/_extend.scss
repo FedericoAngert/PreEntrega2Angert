@@ -1,0 +1,13 @@
+%famcol{
+    font-family: $ff;
+    color: nth($colores, 2);
+}
+
+.tipolmio2{
+    @extend %famcol;
+}
+
+#contactenos{
+    text-align: $txtalc;
+    @extend %famcol
+}

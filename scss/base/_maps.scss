@@ -1,0 +1,12 @@
+$btnyo:(
+    bnone: none,
+    bordr: 5px,
+    curs: pointer
+);
+
+.btnmio{
+    border: map-get($btnyo, bnone);
+    border-radius: map-get($btnyo, bordr);
+    cursor: map-get($btnyo, curs);
+    text-decoration: map-get($btnyo, bnone);
+}

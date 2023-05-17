@@ -1,0 +1,30 @@
+.company-container{
+    margin-bottom: 30px;
+    border: 1px solid nth($colores, 1);
+    padding: $px1;
+}
+
+@media (max-width: 768px){
+    .company-image{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.ldeco{
+    text-decoration: none;
+    font-family: $ff;
+    color: nth($colores, 2);
+    
+}
+.ldeco:hover{
+    text-decoration: underline;
+    color: nth($colores,2);
+
+}
+.listgroupmio{
+    background-color: nth($colores, 10);
+}
+.spacebotop{
+    margin-bottom: $px2;
+    margin-top: $px2;
+}
