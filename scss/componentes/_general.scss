@@ -8,7 +8,9 @@ ul li{
 }
 .tipolmio{
     font-family: $ff;
-    font-size: $px1;
+    font-size: $px2;
+    color: nth($colores, 8);
+
 }
 .tipolmio3{
     font-family: $ff;
