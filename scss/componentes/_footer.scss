@@ -4,3 +4,16 @@
 .limite{
     margin-bottom: 8px;
 }
+
+@media (max-width: 768px){
+    .footerredes{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+}
+
+.hstackk{
+    display: flex;
+    align-self: stretch;
+}
